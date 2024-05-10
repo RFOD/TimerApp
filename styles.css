@@ -1,0 +1,108 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    user-select: none;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #FCF5ED;
+}
+.flex-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.button{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #CE5A67;
+    border-radius: 10px;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+    color: #1F1717;
+    font-size: 1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+.button:hover{
+    width: 7.5rem;
+    height: 2.5rem;
+    background-color: #e86877;
+    border-radius: 15px;
+}
+.stopwatch
+{
+    height: 7rem;
+    width: 20rem;
+    background-color: #F4BF96;
+    margin-bottom: 2.5rem;
+    border-radius: 15px;
+    color:#1F1717;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+.sec
+{
+    color:#1F1717;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    display: relative;
+    
+}
+@media (max-width: 400px)
+{
+    body{
+        user-select: none;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #FCF5ED;
+    }
+    .flex-center
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .button{
+        width: 25vw;
+        height: 2.5rem;
+        background-color: #CE5A67;
+        border-radius: 10px;
+        transition-duration: 200ms;
+        transition-timing-function: ease;
+        color: #1F1717;
+        font-size: 1.2rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 400;
+    }
+    .button:hover{
+        width: 27vw;
+        height: 2.5rem;
+        background-color: #e86877;
+        border-radius: 15px;
+    }
+    .stopwatch
+    {
+        height: 7rem;
+        width: 60vw;
+        background-color: #F4BF96;
+        margin-bottom: 2.5rem;
+        border-radius: 15px;
+        color:#1F1717;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+}
