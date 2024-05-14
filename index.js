@@ -81,3 +81,5 @@ resetBtn.addEventListener("click", sw.reset)
 
 let startBtn = document.querySelector(".start");
 startBtn.addEventListener("click", sw.start)
+
+// Game mechanic for precision stoping the sw. Make a leaderboard and of course multiplayer
