@@ -4,10 +4,11 @@ let start = 0;
 let end = 0;
 let intervalId = null;
 let player;
+let touched = false;
 let input = document.querySelector("#inputId");
 let Player = function(goal){
     this.goal = goal;
-    this.play = (duration) => { if (Number(input.value) > 0)
+    this.play = (duration) => { if (Number(input.value) !== 0)
         {
             let offset = Math.abs(goal - duration); displayOffset(`${offset.toFixed(3)} sec`)
         }else{
@@ -109,7 +110,5 @@ newPlayerBtn.addEventListener("click", () => {
     player = new Player(goal);
     offset.classList.add("erase")
     input.classList.remove("erase")
-
-    
     sw.reset();
 });
